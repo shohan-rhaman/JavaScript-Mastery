@@ -147,3 +147,36 @@ Output: <button>Sold Out</button>
 textContent
 ✅ Reads text
 ✅ Changes text
+
+
+
+
+================================================================================
+
+# if there are multiple buttons then how we select
+
+<button>Buy</button>
+<button>Wishlist</button>
+<button>Add to Cart</button>
+
+const button = document.querySelector("button");
+
+Output: It returns only the first button;
+
+
+# Get all buttons
+
+const buttons = document.querySelectorAll("button");
+
+Output: return all buttons
+
+
+# if there are multiple elements avaiable then how we select:
+
+<h1 id="store-title">Mini Shopify</h1>
+<button id="buy-btn">Buy</button>
+<p class="price">$120</p>
+
+const title = document.querySelector("#store-title");
+const button = document.querySelector("#buy-btn");
+const price = document.querySelector(".price");
