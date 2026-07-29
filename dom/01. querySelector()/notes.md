@@ -116,3 +116,34 @@ title.textContent = "Nike Store";
 Output: <h1 id="title">Nike Store</h1>
 
 
+
+=======================================================================================
+
+# Real Shopify Example
+
+<p id="price">$120</p>
+const price = document.querySelector("#price");
+price.textContent = "$99";
+
+Output: $99
+
+
+
+# Another Example
+
+<button id="buyBtn">
+    Buy Now
+</button>
+
+const button = document.querySelector("#buyBtn");
+button.textContent = "Sold Out";
+
+Output: <button>Sold Out</button>
+
+
+
+# Important Rule
+
+textContent
+✅ Reads text
+✅ Changes text
