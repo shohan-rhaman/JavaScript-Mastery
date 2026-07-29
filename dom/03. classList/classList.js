@@ -14,3 +14,11 @@ const button = document.querySelectorAll(".filter-btn");
 button.forEach(btn =>{
     btn.classList.add("active")
 })
+
+
+
+// Shopify Real example
+const theme = document.querySelector("#theme")
+
+theme.classList.toggle("dark")
+theme.classList.toggle("dark")

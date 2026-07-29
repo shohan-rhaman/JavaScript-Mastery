@@ -40,3 +40,21 @@ button.classList.add("active");
 
 When they click Bags, you remove the active class from the previous button and add it to the new one.
 This is exactly how category filters, variant pickers, and image galleries work in Shopify.
+
+
+
+======================================================================================================
+
+# Real shopify them example
+
+- toggle() works like a switch.
+
+<button id="theme">Dark Mode</button>
+const theme = document.querySelector("#theme");
+
+theme.classList.toggle("dark");
+theme.classList.toggle("dark");
+
+Result Step by step:
+First toggle("dark") → class is added.
+Second toggle("dark") → class is removed.
