@@ -92,3 +92,27 @@ heading.textContent
 heading.innerHTML
 heading.classList
 heading.style
+
+
+
+==========================================================================================
+
+# querySelector() + textContent
+
+# Reading Text
+
+<h1 id="title">Mini Shopify Store</h1>
+const title = document.querySelector("#title");
+console.log(title.textContent)
+
+Output: Mini Shopify Store
+
+
+# Changing Text
+
+const title = document.querySelector("#title");
+title.textContent = "Nike Store";
+
+Output: <h1 id="title">Nike Store</h1>
+
+
