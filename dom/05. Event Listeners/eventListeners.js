@@ -5,3 +5,11 @@ btn3.addEventListener("click", () => {
 });
 
 
+// ============== Shopify Real Example =======================
+
+const addToCartBtn = document.querySelector("#add-to-cart-btn")
+
+addToCartBtn.addEventListener("click", ()=>{
+    addToCartBtn.textContent = "Added to cart";
+    addToCartBtn.classList.add("bg-green-600")
+})
