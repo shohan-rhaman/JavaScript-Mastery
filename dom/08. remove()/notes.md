@@ -21,3 +21,12 @@ Result
 <!-- Nothing -->
 
 The <p> element is completely removed from the webpage.
+
+
+# Real World Uses
+- Remove a cart item
+- Remove a wishlist item
+- Close a popup
+- Remove a notification
+- Delete a product card
+- Remove a filter tag
