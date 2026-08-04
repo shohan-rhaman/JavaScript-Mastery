@@ -38,3 +38,12 @@ const changeBtn = document.querySelector("#change")
 changeBtn.addEventListener("click", (event)=>{
     console.log(event.target.textContent)
 })
+
+
+// ===================== Challange ==================================== //
+const buyBtn = document.querySelector(".buy-btn")
+
+buyBtn.addEventListener("click", (event)=>{
+    event.target.textContent = "added"
+    
+})
