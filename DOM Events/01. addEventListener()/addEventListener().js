@@ -21,3 +21,20 @@ const btn = document.querySelector("#btn");
 btn.addEventListener("click", () => {
     status.textContent = "In Stock";
 });
+
+
+
+// ====================== Shopify Example ============================== //
+// When the button is clicked: Mini Shopify should become Nike Store
+
+const storeName = document.querySelector("#title");
+const changeBtn = document.querySelector("#change")
+
+
+/* changeBtn.addEventListener("click", ()=>{
+    storeName.textContent = "Nike Store"
+}) */
+
+changeBtn.addEventListener("click", (event)=>{
+    console.log(event.target.textContent)
+})
